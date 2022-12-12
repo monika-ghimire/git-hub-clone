@@ -1,0 +1,67 @@
+/* scroll-nav */
+.scroll-nav ul 
+{
+    margin-top:5%;
+  list-style: none;
+    display:inline-block;
+    display: flex;
+    gap:15%;
+    overflow-x:scroll;
+}
+.scroll-nav  li:hover{
+    border-bottom:2px solid #F78166;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /* scroll-nav */
+ .scroll-nav ul 
+{   padding-bottom: 20px;
+    gap:13%;
+    overflow-x:hidden;
+    border-bottom: 1px solid rgb(129, 121, 121);
+}
+
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 792px) {
+    .scroll-nav ul 
+    {
+      overflow-x:hidden; 
+      gap:20px;
+      border-bottom: none;
+      margin-left:30%;
+     
+    }
+     .scroll-nav ul  li{
+        background: #0D1117;
+     }
+    .bottomNav {
+        border-bottom:1px solid rgb(159, 155, 155) ;
+        width: 100%;
+        position: absolute;
+        top:10%;
+        z-index:0;
+        height: auto;
+       
+    }
+
+}
+
+@media only screen and (min-width: 1100px) {
+    .scroll-nav ul 
+    {
+        margin-top:2%;
+        padding-bottom:5px;
+    }
+    
+}
+@media only screen and (min-width: 1100px) {
+    .scroll-nav ul 
+    {
+    
+      gap:45px;
+     
+     
+    }
+}

@@ -1,0 +1,198 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 700px)and (max-width:812px) { 
+
+    /* for top nav */
+    .main-navBar ul {
+        gap: 40%;
+    }
+
+    .user-profile-holder ul {
+        grid-template-columns: 2fr 6fr;
+    }
+
+    .user-profile-holder ul h3 {
+        font-size: 35px;
+
+    }
+
+    .user-profile-holder img {
+        width: 70%;
+        height: 60%;
+        z-index: 1;
+    }
+
+    .profile-edit-btns-holder button {
+        width: 95%;
+        height: 40px;
+    }
+
+    .scroll-nav ul {
+        gap: 15%;
+        overflow-x: hidden;
+    }
+
+
+ }
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width:872px)and (max-width:990px) {
+    .user-image-holder img {
+        height:35%;
+        width: 25%;
+        border-radius: 100%;
+        border: 2px solid #738191;
+        z-index: 1;
+        position: absolute;
+        margin-top:5%;
+
+    }
+
+    /* for top nav */
+    .main-navBar ul ,li
+    {
+        background: #161B22;
+        margin-top: 0px;
+    }
+
+    .pinned-heading {
+        font-size: 25px;
+        margin-left: 35%;
+        top: 27%;
+        position: absolute;
+    }
+
+    .pinned-list-Repositories {
+
+        width:65%;
+        position: absolute;
+        left:34%;
+        top: 31%;
+        /* display:flex; */
+    }
+
+
+    .user-profile-holder ul h3 {
+        display: inline;
+        font-size: 31px;
+        margin-top:270px;
+        left: 4%;
+        position: absolute;
+    }
+
+    .user-profile-holder p {
+        margin-top:310px;
+        left: 4%;
+        position: absolute;
+    }
+
+    .edit-profile-btn button {
+        position: absolute;
+        top:420px;
+        width:30%;
+    }
+
+    .edit-status-btn button {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        position: absolute;
+        top:40%;
+        left:27%;
+        z-index: 3;
+    }
+
+    .edit-status-hide {
+        display: none;
+    }
+
+    .followes-holder ul {
+        margin-top:410px;
+
+    }
+
+    .followes-holder ul,
+    li {
+        background-color: #0D1117;
+    }
+}
+
+@media only screen and (min-width:900px)and (max-width:190px) {
+    .user-image-holder img {
+        height: 59%;
+        width: 25%;
+        border-radius: 100%;
+        border: 2px solid #3a424c;
+        z-index: 1;
+        position: absolute;
+
+    }
+
+    /* for top nav */
+    .main-navBar ul,
+    li {
+        background: #161B22;
+        margin-top: 0px;
+    }
+
+    .pinned-heading {
+        font-size: 25px;
+        margin-left: 30%;
+        top: 28%;
+        position: absolute;
+    }
+
+    .pinned-list-Repositories {
+
+        width: 70%;
+        position: absolute;
+        left: 29%;
+        top: 31%;
+        /* display:flex; */
+    }
+
+
+    .user-profile-holder ul h3 {
+        display: inline;
+        font-size: 31px;
+        margin-top: 26%;
+        left: 4%;
+        position: absolute;
+    }
+
+    .user-profile-holder p {
+        margin-top: 30%;
+        left: 4%;
+        position: absolute;
+    }
+
+    .edit-profile-btn button {
+        position: absolute;
+        top: 88%;
+        width: 25%;
+    }
+
+    .edit-status-btn button {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        z-index: 3;
+
+
+    }
+
+    .edit-status-hide {
+        display: none;
+    }
+
+    .followes-holder ul {
+        margin-top: 35%;
+
+    }
+
+    .followes-holder ul,
+    li {
+        background-color: #0D1117;
+    }
+} 
